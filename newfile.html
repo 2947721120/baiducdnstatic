@@ -1,0 +1,78 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="component.css" />
+	<title>百度静态资源公共库</title>
+</head>
+<body>
+	<div id="main">
+		<!-- header -->
+		<header id="header">
+			<h1 id="logo" class="ff">百度静态资源公共库</h1>
+			<ul id="navlist" class="ff">
+				<li><a href="#" class="active">首页</a></li>
+				<li><a href="about#how">新增一个库</a></li>
+				<li><a href="about">简介</a></li>
+			</ul>
+		</header>
+		<!-- intro -->
+		<section id="intro">
+			<img name="angular.js" src="https://cdn.code.baidu.com/imgs/angular.js.png" alt="">
+			<img name="backbone.js" src="https://cdn.code.baidu.com/imgs/backbone.js.png" alt="">
+			<img name="jquery" src="https://cdn.code.baidu.com/imgs/jquery.png" alt="">
+			<img name="underscore.js" src="https://cdn.code.baidu.com/imgs/underscore.js.png" alt="">
+			<img name="polymer" src="https://cdn.code.baidu.com/imgs/polymer.png" alt="">
+			<img name="zepto" src="https://cdn.code.baidu.com/imgs/zepto.png" alt="">
+		</section>
+		<!-- search -->
+		<section id="search">
+			<input type="text" id="searchbox" placeholder="请输入开源库名称..." />
+		</section>
+		<!-- result -->
+		<section id="result">
+			<dl id="resultbox"></dl>
+		</section>
+		<!-- footer -->
+		<footer id="footer">
+			&copy;2014<a href="http://www.baidu.com">Baidu</a>.
+		</footer>
+		<!-- modal -->
+		<div class="md-modal" id="modalbox">
+			<div class="md-content">
+				<h3 id="libtitle">Modal Dialog</h3>
+				<div id="libintro">
+					<a href="#">http://www.projectname.com</a>
+					<p>project discription</p>
+					<i>keywords</i>
+				</div>
+				<select id="libselect">
+					
+				</select>
+				<div id="libvers">
+					<h4>Version<span id="libversion">xxx</span></h4>
+					<ul id="libfiles">
+						
+					</ul>
+				</div>
+				<div id="md-modal-button">
+					<button class="md-close">Close</button>
+				</div>
+			</div>
+		</div>
+		<!-- overlay -->
+		<div class="md-overlay"></div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="modalEffects.js"></script>
+	<script type="text/javascript" src="libs.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript">
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd48622796481616e86d122bdd504bb55' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+</body>
+</html>
